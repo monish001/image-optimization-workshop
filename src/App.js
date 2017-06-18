@@ -7,7 +7,10 @@ import './App.css';
  * Desktop - 700, 1400
  * Mobile - 400, 800
  */
-let imgBrisbaneLighthouse = require('./img/brisbane-lighthouse.jpg'); 
+let imgBrisbane_700_1x = require('./img/700w.jpg'); 
+let imgBrisbane_700_2x = require('./img/1400w.jpg'); 
+let imgBrisbane_400_1x = require('./img/400w.jpg'); 
+let imgBrisbane_400_2x = require('./img/800w.jpg'); 
 
 class App extends Component {
   render() {
@@ -22,10 +25,11 @@ class App extends Component {
             To get started, edit <code>src/App.js</code> and save to reload. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
           <img 
-            src={imgBrisbaneLighthouse} 
-            alt="test"
-            srcSet=""
-            sizes=""/>
+            src={imgBrisbane_700_1x}
+            alt="Brisbane lighthouse"
+            srcSet={imgBrisbane_400_1x + ' 400w, ' + imgBrisbane_700_1x + ' 700w, ' + 
+              imgBrisbane_400_2x + ' 800w, ' + imgBrisbane_700_2x + ' 1400w'}
+            />
           <p className="app-intro">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
