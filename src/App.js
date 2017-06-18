@@ -31,6 +31,14 @@ class App extends Component {
             srcSet={imgBrisbane_400_1x + ' 400w, ' + imgBrisbane_700_1x + ' 700w, ' + 
               imgBrisbane_400_2x + ' 800w, ' + imgBrisbane_400_3x + ' 1200w, ' + imgBrisbane_700_2x + ' 1400w'}
             sizes="(max-width: 700px) 100vw, 700px"/>
+
+          {/*picture tag polyfill http://scottjehl.github.io/picturefill/ */}
+          {/*<picture>
+            <source media="(min-width: 1000px)" srcset="kookaburra_large_1x.jpg 1x, kookaburra_large_2x.jpg 2x">
+            <source media="(min-width: 500px)" srcset="kookaburra_medium_1x.jpg 1x, kookaburra_medium_2x.jpg 2x">
+            <img src="kookaburra_small.jpg" alt="The kookaburra: a terrestrial tree kingfisher native to Australia and New Guinea">
+          </picture>*/}
+
           <p className="app-intro">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
