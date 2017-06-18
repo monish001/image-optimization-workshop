@@ -1,0 +1,74 @@
+brew install node
+
+npm i -g create-react-app
+
+rm -rf image-optimization-workshop
+create-react-app image-optimization-workshop
+
+Success! Created image-optimization-workshop at /Users/guptam/Documents/repos/personal/image-optimization-workshop
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd image-optimization-workshop
+  npm start
+
+
+
+
+cd image-optimization-workshop
+git init
+npm i
+
+-- npm install resize-image-loader --save-dev
+
+
+git log --pretty=oneline
+
+
+STEPS
+- add text and images to the webpage
+- brought down image width to 100%
+- Added max width to 700px
+- Add responsive images - 400px, 700px
+
+npm install resize-image-loader --save-dev
+npm install gm --save-dev
+npm install -g n
+n 7.5.0
+n
+
+
+
+
+
+
+CODE BACKUP
+1.
+    let responsiveBrisbaneLighthouse = require('resize-image?sizes[]=200w,sizes[]=900w!./img/brisbane-lighthouse.jpg'); // eslint-disable-line 
+    let imgBrisbaneLighthouse = require('./img/brisbane-lighthouse.jpg');
+
+    // import imgQueenslandSpringbrook from './img/queensland-springbrook-national-park.jpg';
+    // let responsiveQueenslandSpringbrook = require('resize-image?sizes[]=400w,sizes[]=700w!./img/queensland-springbrook-national-park.jpg');
+
+
+          {/*<img src={imgQueenslandSpringbrook} alt=""/>*/}
+          <p className="app-intro">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+
+2.
+
