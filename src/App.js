@@ -7,11 +7,11 @@ import './App.css';
  * Desktop - 700, 1400
  * Mobile - 400, 800, 1200
  */
-let imgBrisbane_700_1x = require('./img/700w.jpg'); 
-let imgBrisbane_700_2x = require('./img/1400w.jpg'); 
-let imgBrisbane_400_1x = require('./img/400w.jpg'); 
-let imgBrisbane_400_2x = require('./img/800w.jpg'); 
-let imgBrisbane_400_3x = require('./img/1200w.jpg'); 
+let imgBrisbane_700_1x = require('./img/700w-compressor.jpg'); 
+let imgBrisbane_700_2x = require('./img/1400w-compressor.jpg'); 
+let imgBrisbane_400_1x = require('./img/400w-compressor.jpg'); 
+let imgBrisbane_400_2x = require('./img/800w-compressor.jpg'); 
+let imgBrisbane_400_3x = require('./img/1200w-compressor.jpg'); 
 
 class App extends Component {
   render() {
