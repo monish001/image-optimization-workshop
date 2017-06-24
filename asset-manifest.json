@@ -1,12 +1,8 @@
 {
   "main.css": "static/css/main.de863119.css",
   "main.css.map": "static/css/main.de863119.css.map",
-  "main.js": "static/js/main.e699b92b.js",
-  "main.js.map": "static/js/main.e699b92b.js.map",
-  "static/media/1200w-compressor.jpg": "static/media/1200w-compressor.06f14e3a.jpg",
-  "static/media/1400w-compressor.jpg": "static/media/1400w-compressor.a7e479c0.jpg",
-  "static/media/400w-compressor.jpg": "static/media/400w-compressor.8fd30993.jpg",
-  "static/media/700w-compressor.jpg": "static/media/700w-compressor.b1a82c13.jpg",
-  "static/media/800w-compressor.jpg": "static/media/800w-compressor.9d9e1513.jpg",
+  "main.js": "static/js/main.bd4ae042.js",
+  "main.js.map": "static/js/main.bd4ae042.js.map",
+  "static/media/brisbane-lighthouse.jpg": "static/media/brisbane-lighthouse.5e7601a8.jpg",
   "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
 }
